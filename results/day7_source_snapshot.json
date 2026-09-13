@@ -1,0 +1,25 @@
+{
+  "run_id": "1789222328008696055",
+  "sha256": {
+    "day7_env.py": "c126ee594eba151b4ddafe604cd1c82c7f85a8794ddad3b91a3cb15521834e86",
+    "day7_check.py": "8f88f672a3fed9c4ceee5eccaa1acd72dc4b6ab31af8facf4576453c1fd8de57",
+    "config.yaml": "080a3dd64f006d984da6d4987771e01141c5577695598617f57717a2b610ba53",
+    "perception_v5.py": "f09749c01a1ffc8069a26e3194cde813b92ed039badf86b4aae3cdb6151c148b",
+    "perception_v5.yaml": "3609bfd8cf0b084f4ece44c51b6d1d1c65a0c88d7a6009760c175e1a245ad921",
+    "session_env.sh": "0ad2d2971864a1a0add5a928c12f21cc8e75b609c9811b9d07bada57c6f9af83",
+    "world.launch.py": "08a8b5cd581dc0bdc6b2d564169e193625e09d53f020091f26fe431d2221fb71",
+    "generated/day3_v5_robot.urdf": "f686ef9699b434a5ff7f8b081b5d125839dcba5d40c298aec521ae1421b1011b",
+    "generated/day3_v5_robot.sdf": "fcf41b9a486bfddec99a37b78dc6bde43ffc3e361d27f15a2157e22daa117a9d",
+    "day4_env.py": "801cf7c275ebb97c61f3f5285378378a9cff2a358d3c3957419a975c25726a05",
+    "residual_env.py": "dc5b7fbf4a72b192a3acc0462b0b97d4aa92965c7263ecc5fae6ba25d1a86cea",
+    "models/sac_smoke.zip": "21682552bea0970e59072f04f66c77d75d6e097d7caa90520be87f4ee30e6920"
+  },
+  "transport_revision": {
+    "previous_session_env_sha256": "8bebada6e075007e09cf0879929f9cd2e70bf62c645adf308b8e2b5583af87b1",
+    "reason": "Use loopback IGN_IP for all local Ignition processes after repeated VM-interface service timeouts; no controller/domain/safety changes."
+  },
+  "retry_revision": {
+    "previous_config_sha256": "293c4c0c8a713caa83eae0536e8d4b494d581a943a1b003b4a944d83cb75bd33",
+    "reason": "Finite technical retry budget increased after confirmed response-channel Host unreachable errors; all domain and safety values unchanged."
+  }
+}

@@ -1,0 +1,3 @@
+#!/usr/bin/ruby
+ENV["HOME"] = ENV.fetch("DAY7_APPLICATION_HOME")
+load "/usr/bin/ign"

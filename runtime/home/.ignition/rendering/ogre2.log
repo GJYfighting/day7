@@ -1,0 +1,573 @@
+00:48:55: Creating resource group General
+00:48:55: Creating resource group Internal
+00:48:55: Creating resource group Autodetect
+00:48:55: SceneManagerFactory for type 'DefaultSceneManager' registered.
+00:48:55: Registering ResourceManager for type Material
+00:48:55: Registering ResourceManager for type Mesh
+00:48:55: Registering ResourceManager for type Mesh2
+00:48:55: Registering ResourceManager for type OldSkeleton
+00:48:55: MovableObjectFactory for type 'ParticleSystem' registered.
+00:48:55: ArchiveFactory for archive type FileSystem registered.
+00:48:55: ArchiveFactory for archive type Zip registered.
+00:48:55: ArchiveFactory for archive type EmbeddedZip registered.
+00:48:55: DDS codec registering
+00:48:55: FreeImage version: 3.18.0
+00:48:55: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+00:48:55: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,psb,cut,xbm,xpm,gif,hdr,g3,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,x3f,webp,jxr,wdp,hdp
+00:48:55: OITD codec registering
+00:48:55: Registering ResourceManager for type HighLevelGpuProgram
+00:48:55: MovableObjectFactory for type 'Decal' registered.
+00:48:55: MovableObjectFactory for type 'InternalCubemapProbe' registered.
+00:48:55: MovableObjectFactory for type 'Entity' registered.
+00:48:55: MovableObjectFactory for type 'Item' registered.
+00:48:55: MovableObjectFactory for type 'Light' registered.
+00:48:55: MovableObjectFactory for type 'Rectangle2Dv2' registered.
+00:48:55: MovableObjectFactory for type 'BillboardSet' registered.
+00:48:55: MovableObjectFactory for type 'ManualObject2' registered.
+00:48:55: MovableObjectFactory for type 'BillboardChain' registered.
+00:48:55: MovableObjectFactory for type 'RibbonTrail' registered.
+00:48:55: MovableObjectFactory for type 'WireAabb' registered.
+00:48:55: *-*-* OGRE Initialising
+00:48:55: *-*-* Version 2.2.5 (Cerberus)
+00:48:55: OverlayElementFactory for type Panel registered.
+00:48:55: OverlayElementFactory for type BorderPanel registered.
+00:48:55: OverlayElementFactory for type TextArea registered.
+00:48:55: Registering ResourceManager for type Font
+00:48:55: Loading library /usr/lib/x86_64-linux-gnu/OGRE-Next/RenderSystem_GL3Plus.so
+00:48:55: Installing plugin: GL 3+ RenderSystem
+00:48:55: OpenGL 3+ Rendering Subsystem created.
+00:48:55: Found Num EGL Devices: 2
+00:48:55: EGL Device: EGL_EXT_device_drm EGL_EXT_device_drm_render_node #0 /dev/dri/card0
+00:48:55: Trying to init device: EGL_EXT_device_drm EGL_EXT_device_drm_render_node #0 /dev/dri/card0...
+00:48:55: OGRE EXCEPTION(3:RenderingAPIException): eglInitialize failed for device EGL_EXT_device_drm EGL_EXT_device_drm_render_node #0 /dev/dri/card0 in EGLSupport::getGLDisplay at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/EGL/PBuffer/OgreEglPBufferSupport.cpp (line 320)
+00:48:55: OGRE EXCEPTION(3:RenderingAPIException): eglInitialize failed for device EGL_EXT_device_drm EGL_EXT_device_drm_render_node #0 /dev/dri/card0 in EGLSupport::getGLDisplay at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/EGL/PBuffer/OgreEglPBufferSupport.cpp (line 320)
+00:48:55: Destroying device: EGL_EXT_device_drm EGL_EXT_device_drm_render_node #0 /dev/dri/card0...
+00:48:55: EGL Device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #1
+00:48:55: Trying to init device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #1...
+00:48:55: Created GL 4.5 context for device EGL_MESA_device_software EGL_EXT_device_drm_render_node #1
+00:48:55: Destroying device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #1...
+00:48:55: Plugin successfully installed
+00:48:55: Loading library /usr/lib/x86_64-linux-gnu/OGRE-Next/Plugin_ParticleFX.so
+00:48:55: Installing plugin: ParticleFX
+00:48:55: Particle Emitter Type 'Point' registered
+00:48:55: Particle Emitter Type 'Box' registered
+00:48:55: Particle Emitter Type 'Ellipsoid' registered
+00:48:55: Particle Emitter Type 'Cylinder' registered
+00:48:55: Particle Emitter Type 'Ring' registered
+00:48:55: Particle Emitter Type 'HollowEllipsoid' registered
+00:48:55: Particle Affector Type 'LinearForce' registered
+00:48:55: Particle Affector Type 'ColourFader' registered
+00:48:55: Particle Affector Type 'ColourFader2' registered
+00:48:55: Particle Affector Type 'ColourImage' registered
+00:48:55: Particle Affector Type 'ColourInterpolator' registered
+00:48:55: Particle Affector Type 'Scaler' registered
+00:48:55: Particle Affector Type 'Rotator' registered
+00:48:55: Particle Affector Type 'DirectionRandomiser' registered
+00:48:55: Particle Affector Type 'DeflectorPlane' registered
+00:48:55: Plugin successfully installed
+00:48:55: CPU Identifier & Features
+00:48:55: -------------------------
+00:48:55:  *   CPU ID: GenuineIntel: 12th Gen Intel(R) Core(TM) i9-12900H
+00:48:55:  *   Logical cores: 4
+00:48:55:  *      SSE: yes
+00:48:55:  *     SSE2: yes
+00:48:55:  *     SSE3: yes
+00:48:55:  *      MMX: yes
+00:48:55:  *   MMXEXT: yes
+00:48:55:  *    3DNOW: no
+00:48:55:  * 3DNOWEXT: no
+00:48:55:  *     CMOV: yes
+00:48:55:  *      TSC: yes
+00:48:55:  *      FPU: yes
+00:48:55:  *      PRO: yes
+00:48:55:  *       HT: no
+00:48:55: -------------------------
+00:48:55: ******************************
+*** Starting GLX Subsystem ***
+******************************
+00:48:55: GL3PlusRenderSystem::_createRenderWindow "OgreWindow(0)_39845889", 1x1 windowed  miscParams: FSAA=0 border=none contentScalingFactor=1.000000 gamma=Yes parentWindowHandle=39845889 stereoMode=Frame Sequential 
+00:48:55: Created GL 4.5 context
+00:48:55: GLXWindow::create used FBConfigID = 453
+00:48:55: GL Version = 4.5.0.0
+00:48:55: GL_VERSION = 4.5 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.4
+00:48:55: GL_VENDOR = Mesa
+00:48:55: GL_RENDERER = llvmpipe (LLVM 15.0.7, 256 bits)
+00:48:55: GL_EXTENSIONS = 
+00:48:55: GL_3DFX_texture_compression_FXT1
+00:48:55: GL_AMD_conservative_depth
+00:48:55: GL_AMD_draw_buffers_blend
+00:48:55: GL_AMD_gpu_shader_int64
+00:48:55: GL_AMD_multi_draw_indirect
+00:48:55: GL_AMD_pinned_memory
+00:48:55: GL_AMD_query_buffer_object
+00:48:55: GL_AMD_seamless_cubemap_per_texture
+00:48:55: GL_AMD_shader_stencil_export
+00:48:55: GL_AMD_shader_trinary_minmax
+00:48:55: GL_AMD_texture_texture4
+00:48:55: GL_AMD_vertex_shader_layer
+00:48:55: GL_AMD_vertex_shader_viewport_index
+00:48:55: GL_ANGLE_texture_compression_dxt3
+00:48:55: GL_ANGLE_texture_compression_dxt5
+00:48:55: GL_ARB_ES2_compatibility
+00:48:55: GL_ARB_ES3_1_compatibility
+00:48:55: GL_ARB_ES3_2_compatibility
+00:48:55: GL_ARB_ES3_compatibility
+00:48:55: GL_ARB_arrays_of_arrays
+00:48:55: GL_ARB_base_instance
+00:48:55: GL_ARB_blend_func_extended
+00:48:55: GL_ARB_buffer_storage
+00:48:55: GL_ARB_clear_buffer_object
+00:48:55: GL_ARB_clear_texture
+00:48:55: GL_ARB_clip_control
+00:48:55: GL_ARB_compressed_texture_pixel_storage
+00:48:55: GL_ARB_compute_shader
+00:48:55: GL_ARB_conditional_render_inverted
+00:48:55: GL_ARB_conservative_depth
+00:48:55: GL_ARB_copy_buffer
+00:48:55: GL_ARB_copy_image
+00:48:55: GL_ARB_cull_distance
+00:48:55: GL_ARB_debug_output
+00:48:55: GL_ARB_depth_buffer_float
+00:48:55: GL_ARB_depth_clamp
+00:48:55: GL_ARB_derivative_control
+00:48:55: GL_ARB_direct_state_access
+00:48:55: GL_ARB_draw_buffers
+00:48:55: GL_ARB_draw_buffers_blend
+00:48:55: GL_ARB_draw_elements_base_vertex
+00:48:55: GL_ARB_draw_indirect
+00:48:55: GL_ARB_draw_instanced
+00:48:55: GL_ARB_enhanced_layouts
+00:48:55: GL_ARB_explicit_attrib_location
+00:48:55: GL_ARB_explicit_uniform_location
+00:48:55: GL_ARB_fragment_coord_conventions
+00:48:55: GL_ARB_fragment_layer_viewport
+00:48:55: GL_ARB_fragment_shader
+00:48:55: GL_ARB_framebuffer_no_attachments
+00:48:55: GL_ARB_framebuffer_object
+00:48:55: GL_ARB_framebuffer_sRGB
+00:48:55: GL_ARB_get_program_binary
+00:48:55: GL_ARB_get_texture_sub_image
+00:48:55: GL_ARB_gl_spirv
+00:48:55: GL_ARB_gpu_shader5
+00:48:55: GL_ARB_gpu_shader_fp64
+00:48:55: GL_ARB_gpu_shader_int64
+00:48:55: GL_ARB_half_float_pixel
+00:48:55: GL_ARB_half_float_vertex
+00:48:55: GL_ARB_indirect_parameters
+00:48:55: GL_ARB_instanced_arrays
+00:48:55: GL_ARB_internalformat_query
+00:48:55: GL_ARB_internalformat_query2
+00:48:55: GL_ARB_invalidate_subdata
+00:48:55: GL_ARB_map_buffer_alignment
+00:48:55: GL_ARB_map_buffer_range
+00:48:55: GL_ARB_multi_bind
+00:48:55: GL_ARB_multi_draw_indirect
+00:48:55: GL_ARB_occlusion_query2
+00:48:55: GL_ARB_parallel_shader_compile
+00:48:55: GL_ARB_pipeline_statistics_query
+00:48:55: GL_ARB_pixel_buffer_object
+00:48:55: GL_ARB_point_sprite
+00:48:55: GL_ARB_polygon_offset_clamp
+00:48:55: GL_ARB_post_depth_coverage
+00:48:55: GL_ARB_program_interface_query
+00:48:55: GL_ARB_provoking_vertex
+00:48:55: GL_ARB_query_buffer_object
+00:48:55: GL_ARB_robust_buffer_access_behavior
+00:48:55: GL_ARB_robustness
+00:48:55: GL_ARB_sample_shading
+00:48:55: GL_ARB_sampler_objects
+00:48:55: GL_ARB_seamless_cube_map
+00:48:55: GL_ARB_seamless_cubemap_per_texture
+00:48:55: GL_ARB_separate_shader_objects
+00:48:55: GL_ARB_shader_atomic_counter_ops
+00:48:55: GL_ARB_shader_atomic_counters
+00:48:55: GL_ARB_shader_ballot
+00:48:55: GL_ARB_shader_bit_encoding
+00:48:55: GL_ARB_shader_clock
+00:48:55: GL_ARB_shader_draw_parameters
+00:48:55: GL_ARB_shader_group_vote
+00:48:55: GL_ARB_shader_image_load_store
+00:48:55: GL_ARB_shader_image_size
+00:48:55: GL_ARB_shader_objects
+00:48:55: GL_ARB_shader_precision
+00:48:55: GL_ARB_shader_stencil_export
+00:48:55: GL_ARB_shader_storage_buffer_object
+00:48:55: GL_ARB_shader_subroutine
+00:48:55: GL_ARB_shader_texture_image_samples
+00:48:55: GL_ARB_shader_texture_lod
+00:48:55: GL_ARB_shader_viewport_layer_array
+00:48:55: GL_ARB_shading_language_420pack
+00:48:55: GL_ARB_shading_language_include
+00:48:55: GL_ARB_shading_language_packing
+00:48:55: GL_ARB_spirv_extensions
+00:48:55: GL_ARB_stencil_texturing
+00:48:55: GL_ARB_sync
+00:48:55: GL_ARB_tessellation_shader
+00:48:55: GL_ARB_texture_barrier
+00:48:55: GL_ARB_texture_buffer_object
+00:48:55: GL_ARB_texture_buffer_object_rgb32
+00:48:55: GL_ARB_texture_buffer_range
+00:48:55: GL_ARB_texture_compression_bptc
+00:48:55: GL_ARB_texture_compression_rgtc
+00:48:55: GL_ARB_texture_cube_map_array
+00:48:55: GL_ARB_texture_filter_anisotropic
+00:48:55: GL_ARB_texture_filter_minmax
+00:48:55: GL_ARB_texture_float
+00:48:55: GL_ARB_texture_gather
+00:48:55: GL_ARB_texture_mirror_clamp_to_edge
+00:48:55: GL_ARB_texture_multisample
+00:48:55: GL_ARB_texture_non_power_of_two
+00:48:55: GL_ARB_texture_query_levels
+00:48:55: GL_ARB_texture_query_lod
+00:48:55: GL_ARB_texture_rectangle
+00:48:55: GL_ARB_texture_rg
+00:48:55: GL_ARB_texture_rgb10_a2ui
+00:48:55: GL_ARB_texture_stencil8
+00:48:55: GL_ARB_texture_storage
+00:48:55: GL_ARB_texture_storage_multisample
+00:48:55: GL_ARB_texture_swizzle
+00:48:55: GL_ARB_texture_view
+00:48:55: GL_ARB_timer_query
+00:48:55: GL_ARB_transform_feedback2
+00:48:55: GL_ARB_transform_feedback3
+00:48:55: GL_ARB_transform_feedback_instanced
+00:48:55: GL_ARB_transform_feedback_overflow_query
+00:48:55: GL_ARB_uniform_buffer_object
+00:48:55: GL_ARB_vertex_array_bgra
+00:48:55: GL_ARB_vertex_array_object
+00:48:55: GL_ARB_vertex_attrib_64bit
+00:48:55: GL_ARB_vertex_attrib_binding
+00:48:55: GL_ARB_vertex_buffer_object
+00:48:55: GL_ARB_vertex_shader
+00:48:55: GL_ARB_vertex_type_10f_11f_11f_rev
+00:48:55: GL_ARB_vertex_type_2_10_10_10_rev
+00:48:55: GL_ARB_viewport_array
+00:48:55: GL_ARM_shader_framebuffer_fetch_depth_stencil
+00:48:55: GL_ATI_blend_equation_separate
+00:48:55: GL_ATI_meminfo
+00:48:55: GL_ATI_texture_float
+00:48:55: GL_ATI_texture_mirror_once
+00:48:55: GL_EXT_EGL_image_storage
+00:48:55: GL_EXT_EGL_sync
+00:48:55: GL_EXT_abgr
+00:48:55: GL_EXT_blend_equation_separate
+00:48:55: GL_EXT_debug_label
+00:48:55: GL_EXT_draw_buffers2
+00:48:55: GL_EXT_draw_instanced
+00:48:55: GL_EXT_framebuffer_blit
+00:48:55: GL_EXT_framebuffer_multisample
+00:48:55: GL_EXT_framebuffer_multisample_blit_scaled
+00:48:55: GL_EXT_framebuffer_object
+00:48:55: GL_EXT_framebuffer_sRGB
+00:48:55: GL_EXT_memory_object
+00:48:55: GL_EXT_memory_object_fd
+00:48:55: GL_EXT_packed_depth_stencil
+00:48:55: GL_EXT_packed_float
+00:48:55: GL_EXT_pixel_buffer_object
+00:48:55: GL_EXT_polygon_offset_clamp
+00:48:55: GL_EXT_provoking_vertex
+00:48:55: GL_EXT_shader_framebuffer_fetch
+00:48:55: GL_EXT_shader_framebuffer_fetch_non_coherent
+00:48:55: GL_EXT_shader_integer_mix
+00:48:55: GL_EXT_texture_array
+00:48:55: GL_EXT_texture_compression_dxt1
+00:48:55: GL_EXT_texture_compression_rgtc
+00:48:55: GL_EXT_texture_compression_s3tc
+00:48:55: GL_EXT_texture_filter_anisotropic
+00:48:55: GL_EXT_texture_filter_minmax
+00:48:55: GL_EXT_texture_integer
+00:48:55: GL_EXT_texture_mirror_clamp
+00:48:55: GL_EXT_texture_sRGB
+00:48:55: GL_EXT_texture_sRGB_R8
+00:48:55: GL_EXT_texture_sRGB_RG8
+00:48:55: GL_EXT_texture_sRGB_decode
+00:48:55: GL_EXT_texture_shadow_lod
+00:48:55: GL_EXT_texture_shared_exponent
+00:48:55: GL_EXT_texture_snorm
+00:48:55: GL_EXT_texture_swizzle
+00:48:55: GL_EXT_timer_query
+00:48:55: GL_EXT_transform_feedback
+00:48:55: GL_EXT_vertex_array_bgra
+00:48:55: GL_EXT_vertex_attrib_64bit
+00:48:55: GL_IBM_multimode_draw_arrays
+00:48:55: GL_INTEL_shader_atomic_float_minmax
+00:48:55: GL_KHR_blend_equation_advanced
+00:48:55: GL_KHR_blend_equation_advanced_coherent
+00:48:55: GL_KHR_context_flush_control
+00:48:55: GL_KHR_debug
+00:48:55: GL_KHR_no_error
+00:48:55: GL_KHR_parallel_shader_compile
+00:48:55: GL_KHR_robust_buffer_access_behavior
+00:48:55: GL_KHR_robustness
+00:48:55: GL_KHR_texture_compression_astc_ldr
+00:48:55: GL_KHR_texture_compression_astc_sliced_3d
+00:48:55: GL_MESA_framebuffer_flip_y
+00:48:55: GL_MESA_pack_invert
+00:48:55: GL_MESA_shader_integer_functions
+00:48:55: GL_MESA_texture_signed_rgba
+00:48:55: GL_MESA_ycbcr_texture
+00:48:55: GL_NVX_gpu_memory_info
+00:48:55: GL_NV_conditional_render
+00:48:55: GL_NV_copy_image
+00:48:55: GL_NV_depth_clamp
+00:48:55: GL_NV_packed_depth_stencil
+00:48:55: GL_NV_shader_atomic_float
+00:48:55: GL_NV_texture_barrier
+00:48:55: GL_OES_EGL_image
+00:48:55: GL_S3_s3tc
+00:48:55: **************************************
+00:48:55: ***   OpenGL 3+ Renderer Started   ***
+00:48:55: **************************************
+00:48:55: Registering ResourceManager for type GpuProgram
+00:48:55: RenderSystem capabilities
+00:48:55: -------------------------
+00:48:55: RenderSystem Name: OpenGL 3+ Rendering Subsystem
+00:48:55: GPU Vendor: unknown
+00:48:55: Device Name: llvmpipe (LLVM 15.0.7, 256 bits)
+00:48:55: Driver Version: 4.5.0.0
+00:48:55:  * Fixed function pipeline: no
+00:48:55:  * Hardware generation of mipmaps: yes
+00:48:55:  * Texture blending: yes
+00:48:55:  * Anisotropic texture filtering: yes
+00:48:55:  * Dot product texture operation: yes
+00:48:55:  * Cube mapping: yes
+00:48:55:  * Hardware stencil buffer: yes
+00:48:55:    - Stencil depth: 8
+00:48:55:    - Two sided stencil support: yes
+00:48:55:    - Wrap stencil values: yes
+00:48:55:  * Hardware vertex / index buffers: yes
+00:48:55:  * 32-bit index buffers: yes
+00:48:55:  * Vertex programs: yes
+00:48:55:  * Number of floating-point constants for vertex programs: 16384
+00:48:55:  * Number of integer constants for vertex programs: 16384
+00:48:55:  * Number of boolean constants for vertex programs: 16384
+00:48:55:  * Fragment programs: yes
+00:48:55:  * Number of floating-point constants for fragment programs: 16384
+00:48:55:  * Number of integer constants for fragment programs: 16384
+00:48:55:  * Number of boolean constants for fragment programs: 16384
+00:48:55:  * Geometry programs: yes
+00:48:55:  * Number of floating-point constants for geometry programs: 16384
+00:48:55:  * Number of integer constants for geometry programs: 16384
+00:48:55:  * Number of boolean constants for geometry programs: 16384
+00:48:55:  * Tessellation Hull programs: yes
+00:48:55:  * Number of floating-point constants for tessellation hull programs: 16384
+00:48:55:  * Number of integer constants for tessellation hull programs: 16384
+00:48:55:  * Number of boolean constants for tessellation hull programs: 16384
+00:48:55:  * Tessellation Domain programs: yes
+00:48:55:  * Number of floating-point constants for tessellation domain programs: 16384
+00:48:55:  * Number of integer constants for tessellation domain programs: 16384
+00:48:55:  * Number of boolean constants for tessellation domain programs: 16384
+00:48:55:  * Compute programs: yes
+00:48:55:  * Number of floating-point constants for compute programs: 16384
+00:48:55:  * Number of integer constants for compute programs: 16384
+00:48:55:  * Number of boolean constants for compute programs: 16384
+00:48:55:  * Supported Shader Profiles: glsl glsl130 glsl140 glsl150 glsl330 glsl400 glsl410 glsl420 glsl430 glsl440
+00:48:55:  * Texture Compression: yes
+00:48:55:    - DXT: yes
+00:48:55:    - VTC: no
+00:48:55:    - PVRTC: no
+00:48:55:    - ATC: no
+00:48:55:    - ETC1: no
+00:48:55:    - ETC2: yes
+00:48:55:    - BC4/BC5: yes
+00:48:55:    - BC6H/BC7: yes
+00:48:55:    - ASTC: yes
+00:48:55:  * Hardware Occlusion Query: yes
+00:48:55:  * User clip planes: yes
+00:48:55:  * VET_UBYTE4 vertex element type: yes
+00:48:55:  * Infinite far plane projection: yes
+00:48:55:  * Hardware render-to-texture: yes
+00:48:55:  * Floating point textures: yes
+00:48:55:  * Non-power-of-two textures: yes
+00:48:55:  * 1d textures: yes
+00:48:55:  * Volume textures: yes
+00:48:55:  * Max Texture resolution (2D) 16384
+00:48:55:  * Max Texture resolution (3D) 2048
+00:48:55:  * Max Texture resolution (Cubemaps) 16384
+00:48:55:  * Multiple Render Targets: 8
+00:48:55:    - With different bit depths: yes
+00:48:55:  * Point Sprites: yes
+00:48:55:  * Extended point parameters: yes
+00:48:55:  * Max Point Size: 255
+00:48:55:  * Vertex texture fetch: yes
+00:48:55:  * Number of world matrices: 0
+00:48:55:  * Number of texture units: 16
+00:48:55:  * Stencil buffer depth: 8
+00:48:55:  * Number of vertex blend matrices: 0
+00:48:55:    - Max vertex textures: 32
+00:48:55:    - Vertex textures shared: yes
+00:48:55:  * Render to Vertex Buffer : yes
+00:48:55:  * Hardware Atomic Counters: yes
+00:48:55:  * Compute max threads per threadgroup per axis: 1024, 1024, 64
+00:48:55:  * Compute max threads per threadgroup total: 1024
+00:48:55:  * GL 1.5 without VBO workaround: no
+00:48:55:  * Frame Buffer objects: yes
+00:48:55:  * Frame Buffer objects (ARB extension): no
+00:48:55:  * Frame Buffer objects (ATI extension): no
+00:48:55:  * PBuffer support: no
+00:48:55:  * GL 1.5 without HW-occlusion workaround: no
+00:48:55:  * Vertex Array Objects: yes
+00:48:55:  * Separate shader objects: no
+00:48:55:  * Using Reverse Z: yes
+00:48:56: DefaultWorkQueue('Root') initialising on thread main.
+00:48:56: Particle Renderer Type 'billboard' registered
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/2.0/scripts/Compositors' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/2.0/scripts/materials/Common' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/2.0/scripts/materials/Common/GLSL' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/2.0/scripts/materials/Common/GLSLES' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/2.0/scripts/materials/Terra' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/2.0/scripts/materials/Terra/GLSL' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/materials/programs' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/materials/programs/GLSL' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/materials/programs/Metal' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/ogre2/media/materials/textures' of type 'FileSystem' to resource group 'General'
+00:48:56: Parsing scripts for resource group Autodetect
+00:48:56: Finished parsing scripts for resource group Autodetect
+00:48:56: Creating resources for group Autodetect
+00:48:56: All done
+00:48:56: Parsing scripts for resource group General
+00:48:56: Parsing script Quad.program
+00:48:56: Parsing script Copyback.material
+00:48:56: Parsing script EsmGaussianBlurLogFilter.material
+00:48:56: Parsing script DepthUtils.material
+00:48:56: Parsing script DPSM.material
+00:48:56: Parsing script GpuNormalMapper.material
+00:48:56: Parsing script point_cloud_point.material
+00:48:56: Parsing script gaussian_noise.material
+00:48:56: Parsing script thermal.material
+00:48:56: Parsing script depth_camera.material
+00:48:56: Parsing script gpu_rays.material
+00:48:56: Parsing script selection_buffer.material
+00:48:56: Parsing script picker.material
+00:48:56: Parsing script skybox.material
+00:48:56: Parsing script TerraShadowGenerator.compositor
+00:48:56: Parsing script GpuNormalMapper.compositor
+00:48:56: Parsing script EsmGaussianBlurLogFilter.material.json
+00:48:56: Parsing script Mipmaps.material.json
+00:48:56: Parsing script TerraShadowGenerator.material.json
+00:48:56: Finished parsing scripts for resource group General
+00:48:56: Creating resources for group General
+00:48:56: All done
+00:48:56: Parsing scripts for resource group Internal
+00:48:56: Finished parsing scripts for resource group Internal
+00:48:56: Creating resources for group Internal
+00:48:56: All done
+00:48:56: Added resource location '/usr/share/ignition/ignition-rendering6/media/materials/textures/' of type 'FileSystem' to resource group 'General'
+00:48:56: Can't assign material scene::Material(65506) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65484) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65478) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65472) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65460) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65454) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65448) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65442) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65436) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65430) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65424) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65418) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65412) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65406) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65400) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65394) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65388) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65382) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65376) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: OGRE EXCEPTION(5:ItemIdentityException): Cannot locate an appropriate 2D texture coordinate set for all the vertex data in this mesh to create tangents from.  in Mesh::suggestTangentVectorBuildParams at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/OgreMain/src/OgreMesh.cpp (line 1881)
+00:48:56: Can't assign material scene::Material(65370) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:48:56: Vertex Shader: 100000001VertexShader_vs
+Fragment Shader: 100000001PixelShader_ps
+ GLSL validation result : 
+active samplers with a different type refer to the same texture image unit
+00:48:56: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+00:49:10: Vertex Shader: 100000005VertexShader_vs
+Fragment Shader: 100000005PixelShader_ps
+ GLSL validation result : 
+active samplers with a different type refer to the same texture image unit
+00:49:12: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:49:54: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:50:35: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:51:19: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:52:03: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:52:46: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:53:28: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:54:13: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:54:55: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:54:58: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:55:31: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:55:34: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:56:16: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:56:48: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:57:30: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:57:34: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:58:16: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:58:20: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:59:01: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+00:59:42: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:00:24: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:00:28: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:01:10: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:01:51: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:02:33: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:03:17: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:03:57: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:05:10: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:05:23: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:06:06: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:06:48: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:07:30: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:08:13: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:08:55: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:09:37: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:09:42: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:10:23: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:11:04: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:11:47: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:11:51: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:12:31: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:13:17: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:13:59: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:14:42: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:15:24: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:15:55: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:16:39: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:17:20: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:18:01: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:18:05: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:18:09: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:18:52: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:18:56: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:19:37: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:19:42: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:20:22: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:21:06: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:21:48: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:22:32: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:23:14: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:23:56: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:24:37: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?
+01:25:26: Can't assign material scene::Material(65500) because this Material does not exist. Have you forgotten to define it in a .material script?

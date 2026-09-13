@@ -1,0 +1,8 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+TRIAL=000 PHASE=CHECK_INTERFACES
+DAY7_EPISODE=1 LEVEL=L3 VALID=0/50 TECHNICAL=True SUCCESS=False REASON=TechnicalFailure: INTERFACE_NOT_READY: active=True r_effort_only=True passive_command=False joints=True odom=False ik_fk=True clock=True
+TRIAL=000 PHASE=CHECK_INTERFACES
+DAY7_EPISODE=2 LEVEL=L3 VALID=0/50 TECHNICAL=True SUCCESS=False REASON=TechnicalFailure: INTERFACE_NOT_READY: active=True r_effort_only=True passive_command=False joints=True odom=False ik_fk=True clock=True
+TRIAL=000 PHASE=CHECK_INTERFACES
+DAY7_EPISODE=3 LEVEL=L3 VALID=0/50 TECHNICAL=True SUCCESS=False REASON=TechnicalFailure: INTERFACE_NOT_READY: active=True r_effort_only=True passive_command=False joints=True odom=False ik_fk=True clock=True

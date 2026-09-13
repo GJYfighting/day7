@@ -1,0 +1,14 @@
+{
+  "issue": "Ogre2 ignores IGN_HOMEDIR and uses HOME directly for rendering/ogre2.log",
+  "affected_path": "/home/ubuntu/.ignition/rendering/ogre2.log",
+  "observed_sha256": "d946d4cc281e7eb1b421037a13c69b3140d3549eb15ebf692aa58c4fedfa77bb",
+  "observed_mtime_ns": 1789208518176891747,
+  "correction": "session_env.sh generates a Ruby ign shim that scopes application HOME to runtime/home for both direct CLI and ros_gz_sim Ruby invocation; world launch also uses the same private application home",
+  "previous_contents_available": false,
+  "restoration_attempted": false,
+  "full_acceptance_restarted": true,
+  "additional_affected_paths": [
+    "/home/ubuntu/.sdformat/sdformat.log",
+    "/home/ubuntu/.ignition/gazebo/log/"
+  ]
+}

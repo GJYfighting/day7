@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "run_id": "1789222328008696055",
+  "copied_baseline_files": 927,
+  "copied_unchanged": 920,
+  "copied_modified": [
+    "config.yaml",
+    "generated/day3_v5_robot.sdf",
+    "generated/day3_v5_robot.urdf",
+    "perception_v5.py",
+    "perception_v5.yaml",
+    "session_env.sh",
+    "world.launch.py"
+  ],
+  "new_primary_source_files": [
+    "day7_env.py",
+    "day7_check.py"
+  ],
+  "runtime_helper": "runtime/bin/ign",
+  "deleted": [],
+  "purposes": {
+    "day7_env.py": "新增：课程管理、确定性域采样、ResidualGraspEnv 包装、真实 SDF 重建/回读、动态感知更新、非阻塞命令时延、回合日志与原子状态保存。",
+    "day7_check.py": "新增：静态/模型/10维观测4维动作/限幅/off等价/复现性/课程/隔离检查，以及真实四级冒烟、50×4验收、有限整级续跑和日志审计。",
+    "config.yaml": "复制后修改：仅新增 day7 段，集中定义课程、全部随机范围、输出路径和有限技术重试预算；原配置不变。",
+    "perception_v5.py": "复制后修改：线程安全动态参数；HSV 前 RGB 扰动、反投影前深度扰动、仅感知变换的外参扰动及回合切换确认。",
+    "perception_v5.yaml": "复制后修改：新增默认关闭的 day7_domain 参数。",
+    "session_env.sh": "复制后修改：Day7变量、独立domain/partition、过滤旧路径、系统Python与本地vendor、私有缓存/临时目录、Ignition回环接口与运行时Ruby shim。",
+    "world.launch.py": "复制后修改：给Gazebo子进程设置Day7私有应用HOME，确保Ogre2/SDFormat日志留在runtime；保留ogre2。",
+    "generated/day3_v5_robot.urdf": "复制后修改：模型资源绝对路径改为Day7本地引用。",
+    "generated/day3_v5_robot.sdf": "复制后修改：模型资源绝对路径改为Day7本地引用。"
+  },
+  "tests": [
+    {
+      "command": "source ~/ros2_ws/day7/session_env.sh && /usr/bin/python3 day7_check.py",
+      "result": "四级冒烟和L0/L1各50有效回合通过；L2/L3因技术失败上限未完成，原批次为NOT_PASS。",
+      "log": "runtime/logs/check/day7_nonblocking_acceptance.log"
+    },
+    {
+      "command": "source ~/ros2_ws/day7/session_env.sh && /usr/bin/python3 day7_check.py --resume-check",
+      "result": "L2完整50有效回合通过；L3首轮补测33/50触发技术失败上限，保留NOT_PASS。",
+      "log": "runtime/logs/check/day7_loopback_acceptance.log"
+    },
+    {
+      "command": "source ~/ros2_ws/day7/session_env.sh && /usr/bin/python3 day7_check.py --resume-check",
+      "result": "L3重新完整50有效回合通过；模型/数值/复现/课程/全日志审计/Day6哈希/隔离全部通过，退出码0，DAY7_CHECK=PASS。",
+      "log": "runtime/logs/check/day7_final_l3_acceptance.log"
+    },
+    {
+      "command": "ign service --versions; ign service --help",
+      "result": "本地默认transport 11.4.2，另有8.2.1；--timeout单位为毫秒。"
+    }
+  ],
+  "levels": {
+    "smoke_L0": {
+      "valid": 1,
+      "technical_failures": 0,
+      "successes": 1,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.956791477277875,
+      "mean_steps": 4.0
+    },
+    "smoke_L1": {
+      "valid": 1,
+      "technical_failures": 0,
+      "successes": 1,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.95556040853262,
+      "mean_steps": 4.0
+    },
+    "smoke_L2": {
+      "valid": 1,
+      "technical_failures": 0,
+      "successes": 1,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.94022166542709,
+      "mean_steps": 4.0
+    },
+    "smoke_L3": {
+      "valid": 1,
+      "technical_failures": 0,
+      "successes": 1,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.94430151022971,
+      "mean_steps": 4.0
+    },
+    "full_L0": {
+      "valid": 50,
+      "technical_failures": 3,
+      "successes": 50,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.955738256685436,
+      "mean_steps": 4.0
+    },
+    "full_L1": {
+      "valid": 50,
+      "technical_failures": 7,
+      "successes": 50,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.95334297697991,
+      "mean_steps": 4.0
+    },
+    "full_L2": {
+      "valid": 50,
+      "technical_failures": 7,
+      "successes": 50,
+      "status": "PASS",
+      "success_rate": 1.0,
+      "mean_return": 51.95751459058374,
+      "mean_steps": 4.02
+    },
+    "full_L3": {
+      "valid": 50,
+      "technical_failures": 14,
+      "successes": 48,
+      "status": "PASS",
+      "success_rate": 0.96,
+      "mean_return": 48.76770705934614,
+      "mean_steps": 4.06
+    }
+  },
+  "run_records": {
+    "total": 305,
+    "valid": 248,
+    "technical": 57
+  },
+  "limitations": [
+    "早期诊断曾写入Day7外的Ignition/Ogre2/SDFormat日志。问题已修复，后续验收外部缓存未变化；没有原日志内容可恢复，不能声称全过程隔离完全合规。详见day7_isolation_incident.json。",
+    "Ignition 11.4.2服务应答通道仍偶发Host unreachable；采用明确上限的5次技术重试，连续6次失败停止。各次失败如实记录，不能保证每次重跑都无技术失败。",
+    "深度噪声L1/L2/L3收紧为0.1/0.2/0.3 mm：原建议值造成感知宽度超出原夹爪间隙检查；位置范围、动作限幅、IK和成功判据未放宽。",
+    "现有系统SciPy会提示与vendor NumPy版本范围不匹配；模型和真实IK验收已通过，未安装或升级依赖。"
+  ],
+  "optional_unrun": [
+    {
+      "name": "真实Gazebo自动课程长跑",
+      "status": "SKIP",
+      "reason": "本次必须项为合成升降检查与固定等级50×4；自动课程逻辑已合成验证。"
+    }
+  ],
+  "reproduce": "source ~/ros2_ws/day7/session_env.sh && /usr/bin/python3 day7_check.py",
+  "resume": "source ~/ros2_ws/day7/session_env.sh && /usr/bin/python3 day7_check.py --resume-check"
+}

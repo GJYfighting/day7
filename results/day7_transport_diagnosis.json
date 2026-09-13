@@ -1,0 +1,12 @@
+{
+  "evidence": "runtime/logs/day7_check/20260912_234216/world.log",
+  "server_error": "NodeShared::RecvSrvRequest() error sending response: Host unreachable",
+  "library_version": "11.4.2",
+  "duplicate_processes_found": false,
+  "loopback_did_not_eliminate_failures": true,
+  "technical_retries": 5,
+  "maximum_consecutive_failed_attempts": 6,
+  "maximum_attempts_for_50_valid": 300,
+  "stage_restarts": 2,
+  "policy": "All failed service/reset attempts remain technical failures, excluded from success statistics. One final complete L3 rerun; no safety/IK/success or domain changes."
+}

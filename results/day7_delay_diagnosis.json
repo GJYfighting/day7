@@ -1,0 +1,10 @@
+{
+  "cause": "Blocking gripper publish delay ran inside every backend.spin_once and prevented six perception topics from meeting the unchanged 0.30 second freshness threshold.",
+  "evidence": [
+    "visual_grasp_v5.py:573",
+    "visual_grasp_v5.py:966",
+    "runtime/logs/day7_check/20260912_213053/full_L3_retry1.log"
+  ],
+  "correction": "Condition-protected ordered transport queue; zero-delay path remains synchronous; pending commands cleared at episode reset; original freshness and safety checks unchanged.",
+  "validation": "Real-time queue unit check plus fresh smoke and 50x4 live acceptance required."
+}

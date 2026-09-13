@@ -1,0 +1,30 @@
+environment=PASS 
+syntax=PASS 
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+numerical=PASS 
+randomization=PASS 
+curriculum=PASS 
+isolation=PASS 
+gazebo=PASS 
+episode_audit=PASS 
+final_isolation=PASS 
+FILES: copied unchanged=920, copied modified=7, added=711, deleted=0
+MODIFIED: config.yaml
+MODIFIED: generated/day3_v5_robot.sdf
+MODIFIED: generated/day3_v5_robot.urdf
+MODIFIED: perception_v5.py
+MODIFIED: perception_v5.yaml
+MODIFIED: session_env.sh
+MODIFIED: world.launch.py
+smoke_L0 {"valid": 1, "technical_failures": 0, "successes": 1, "status": "PASS", "success_rate": 1.0, "mean_return": 51.956791477277875, "mean_steps": 4.0}
+smoke_L1 {"valid": 1, "technical_failures": 0, "successes": 1, "status": "PASS", "success_rate": 1.0, "mean_return": 51.95556040853262, "mean_steps": 4.0}
+smoke_L2 {"valid": 1, "technical_failures": 0, "successes": 1, "status": "PASS", "success_rate": 1.0, "mean_return": 51.94022166542709, "mean_steps": 4.0}
+smoke_L3 {"valid": 1, "technical_failures": 0, "successes": 1, "status": "PASS", "success_rate": 1.0, "mean_return": 51.94430151022971, "mean_steps": 4.0}
+full_L0 {"valid": 50, "technical_failures": 3, "successes": 50, "status": "PASS", "success_rate": 1.0, "mean_return": 51.955738256685436, "mean_steps": 4.0}
+full_L1 {"valid": 50, "technical_failures": 7, "successes": 50, "status": "PASS", "success_rate": 1.0, "mean_return": 51.95334297697991, "mean_steps": 4.0}
+full_L2 {"valid": 50, "technical_failures": 7, "successes": 50, "status": "PASS", "success_rate": 1.0, "mean_return": 51.95751459058374, "mean_steps": 4.02}
+full_L3 {"valid": 50, "technical_failures": 14, "successes": 48, "status": "PASS", "success_rate": 0.96, "mean_return": 48.76770705934614, "mean_steps": 4.06}
+HISTORY: early diagnostics wrote external Gazebo/SDFormat logs; fixed before final run. See results/day7_isolation_incident.json; entire workflow isolation was not fully compliant.
+REPRODUCE: source ~/ros2_ws/day7/session_env.sh && /usr/bin/python3 day7_check.py
+DAY7_CHECK=PASS

@@ -1,0 +1,288 @@
+{
+  "run_id": "1789222328008696055",
+  "status": "PASS",
+  "checks": {
+    "smoke_L0": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_221214/smoke_L0.log",
+      "requested_valid": 1,
+      "record_tag": "smoke_L0",
+      "stage_retry": 0,
+      "previous_runs": []
+    },
+    "smoke_L1": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_221214/smoke_L1.log",
+      "requested_valid": 1,
+      "record_tag": "smoke_L1",
+      "stage_retry": 0,
+      "previous_runs": []
+    },
+    "smoke_L2": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_221214/smoke_L2.log",
+      "requested_valid": 1,
+      "record_tag": "smoke_L2",
+      "stage_retry": 0,
+      "previous_runs": []
+    },
+    "smoke_L3": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_221214/smoke_L3.log",
+      "requested_valid": 1,
+      "record_tag": "smoke_L3",
+      "stage_retry": 0,
+      "previous_runs": []
+    },
+    "full_L0": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_221214/full_L0.log",
+      "requested_valid": 50,
+      "record_tag": "full_L0",
+      "stage_retry": 0,
+      "previous_runs": []
+    },
+    "full_L1": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_221214/full_L1.log",
+      "requested_valid": 50,
+      "record_tag": "full_L1",
+      "stage_retry": 0,
+      "previous_runs": []
+    },
+    "full_L2": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260912_234216/full_L2_retry1.log",
+      "requested_valid": 50,
+      "record_tag": "full_L2_retry1",
+      "stage_retry": 1,
+      "previous_runs": [
+        {
+          "status": "FAIL",
+          "log": "runtime/logs/day7_check/20260912_221214/full_L2.log",
+          "requested_valid": 50,
+          "record_tag": "full_L2",
+          "stage_retry": 0,
+          "previous_runs": []
+        }
+      ]
+    },
+    "full_L3": {
+      "status": "PASS",
+      "log": "runtime/logs/day7_check/20260913_004852/full_L3_retry2.log",
+      "requested_valid": 50,
+      "record_tag": "full_L3_retry2",
+      "stage_retry": 2,
+      "previous_runs": [
+        {
+          "status": "FAIL",
+          "log": "runtime/logs/day7_check/20260912_221214/full_L3.log",
+          "requested_valid": 50,
+          "record_tag": "full_L3",
+          "stage_retry": 0,
+          "previous_runs": []
+        },
+        {
+          "status": "FAIL",
+          "log": "runtime/logs/day7_check/20260912_234216/full_L3_retry1.log",
+          "requested_valid": 50,
+          "record_tag": "full_L3_retry1",
+          "stage_retry": 1,
+          "previous_runs": [
+            {
+              "status": "FAIL",
+              "log": "runtime/logs/day7_check/20260912_221214/full_L3.log",
+              "requested_valid": 50,
+              "record_tag": "full_L3",
+              "stage_retry": 0,
+              "previous_runs": []
+            }
+          ]
+        }
+      ]
+    },
+    "environment": {
+      "status": "PASS",
+      "detail": {
+        "domain": "89",
+        "partition": "day7_ubuntu",
+        "python": "/usr/bin/python3"
+      }
+    },
+    "syntax": {
+      "status": "PASS",
+      "detail": {
+        "python": 10,
+        "yaml": 6,
+        "xml": 4,
+        "shell": 1
+      }
+    },
+    "numerical": {
+      "status": "PASS",
+      "detail": {
+        "versions": {
+          "numpy": {
+            "version": "1.26.4",
+            "path": "/home/ubuntu/ros2_ws/day7/vendor/numpy/__init__.py"
+          },
+          "cv2": {
+            "version": "4.8.1",
+            "path": "/home/ubuntu/ros2_ws/day7/vendor/cv2/__init__.py"
+          },
+          "gymnasium": {
+            "version": "0.29.1",
+            "path": "/home/ubuntu/ros2_ws/day7/vendor/gymnasium/__init__.py"
+          },
+          "stable_baselines3": {
+            "version": "2.3.2",
+            "path": "/home/ubuntu/ros2_ws/day7/vendor/stable_baselines3/__init__.py"
+          },
+          "torch": {
+            "version": "2.11.0+cu130",
+            "path": "/home/ubuntu/.local/lib/python3.10/site-packages/torch/__init__.py"
+          }
+        },
+        "observation_dim": 10,
+        "action_dim": 4,
+        "final_limits": [
+          0.004999999888241291,
+          0.004999999888241291,
+          0.004999999888241291,
+          0.0872664600610733
+        ],
+        "residual_limits": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01745329238474369
+        ],
+        "off_fusion_bitwise_identical": true,
+        "nonblocking_command_delay": true
+      }
+    },
+    "randomization": {
+      "status": "PASS",
+      "detail": {
+        "seeds_per_level": 100,
+        "deterministic_frames": 5,
+        "off_zero": true,
+        "enlarged_rectangle_rejected": true
+      }
+    },
+    "curriculum": {
+      "status": "PASS",
+      "detail": {
+        "thresholds": [
+          0.55,
+          0.56,
+          0.79,
+          0.8
+        ],
+        "dwell": 100,
+        "technical_excluded": true,
+        "boundaries": true
+      }
+    },
+    "isolation": {
+      "status": "PASS",
+      "detail": {
+        "baseline_files": 927,
+        "unchanged": true,
+        "local_model_references": 93,
+        "modified": [
+          "config.yaml",
+          "generated/day3_v5_robot.sdf",
+          "generated/day3_v5_robot.urdf",
+          "perception_v5.py",
+          "perception_v5.yaml",
+          "session_env.sh",
+          "world.launch.py"
+        ],
+        "deleted": []
+      }
+    },
+    "final_isolation": {
+      "status": "PASS",
+      "detail": {
+        "baseline_files": 927,
+        "unchanged": true,
+        "local_model_references": 93,
+        "modified": [
+          "config.yaml",
+          "generated/day3_v5_robot.sdf",
+          "generated/day3_v5_robot.urdf",
+          "perception_v5.py",
+          "perception_v5.yaml",
+          "session_env.sh",
+          "world.launch.py"
+        ],
+        "deleted": []
+      }
+    },
+    "runtime_cache_isolation": {
+      "status": "PASS",
+      "external_ogre_log_unchanged": true,
+      "internal_ogre_log_exists": true
+    },
+    "gazebo": {
+      "status": "PASS",
+      "detail": {
+        "headless": true,
+        "valid_episodes": 200,
+        "smoke_episodes": 4
+      }
+    },
+    "episode_audit": {
+      "status": "PASS",
+      "detail": {
+        "counts": {
+          "smoke_L0": {
+            "valid": 1,
+            "technical": 0
+          },
+          "smoke_L1": {
+            "valid": 1,
+            "technical": 0
+          },
+          "smoke_L2": {
+            "valid": 1,
+            "technical": 0
+          },
+          "smoke_L3": {
+            "valid": 1,
+            "technical": 0
+          },
+          "full_L0": {
+            "valid": 50,
+            "technical": 3
+          },
+          "full_L1": {
+            "valid": 50,
+            "technical": 7
+          },
+          "full_L2_retry1": {
+            "valid": 50,
+            "technical": 7
+          },
+          "full_L3_retry2": {
+            "valid": 50,
+            "technical": 14
+          }
+        },
+        "audited_actions": 820,
+        "deterministic_parameter_replay": true
+      }
+    },
+    "external_cache_unchanged": {
+      "status": "PASS",
+      "checked_files": 5119,
+      "changed": []
+    }
+  },
+  "history": {
+    "isolation_incident": "results/day7_isolation_incident.json",
+    "entire_workflow_isolation_compliant": false,
+    "corrected_before_this_run": true
+  }
+}
